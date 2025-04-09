@@ -1,0 +1,6 @@
+export * from "./Home"
+export * from "./About"
+export * from "./Explorations"
+export * from "./Research"
+export * from "./Contact"
+export * from "./ExplorationsComponent"
