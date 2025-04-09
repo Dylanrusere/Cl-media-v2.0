@@ -75,7 +75,50 @@ export const Home = () => {
       <div className="spacing_div"></div>
 
       {/* Blog Section */}
-      <ExplorationsComponent/>
+      <section id="blog">
+        <div className="overall_container">
+          <p className="blog_overall_heading">Explorations</p>
+          <div className="blog_grid_container">
+
+            <div className="blog_card_container lifestyle_container">
+              <button className="green_blog_btn">#Lifestyle</button>
+              <div className="blog_img_container">
+                <img src="./assets/images/IMG_4429.JPG" alt="" />
+              </div>
+              <p className="blog_date">July 22, 2028</p>
+              <p className="blog_heading">WFH`s the New Normal</p>
+              <a href="./article1.html" className="blog_link">
+                Tap in <i className="fa-solid fa-arrow-right-long"></i>
+              </a>
+            </div>
+
+            <div className="blog_card_container mental_health_container">
+              <button className="green_blog_btn">#Mental Health</button>
+              <div className="blog_img_container">
+                <img src="./assets/images/IMG_4429.JPG" alt="" />
+              </div>
+              <p className="blog_date">July 22, 2028</p>
+              <p className="blog_heading">What`s New with the Company</p>
+              <a href="./article2.html" className="blog_link">
+                Tap in <i className="fa-solid fa-arrow-right-long"></i>
+              </a>
+            </div>
+
+            <div className="blog_card_container art_container">
+              <button className="green_blog_btn">#Art</button>
+              <div className="blog_img_container">
+                <img src="./assets/images/IMG_4429.JPG" alt="" />
+              </div>
+              <p className="blog_date">July 22, 2028</p>
+              <p className="blog_heading">How to implement AI In Your Work</p>
+              <a href="./article3.html" className="blog_link">
+                Tap in <i className="fa-solid fa-arrow-right-long"></i>
+              </a>
+            </div>
+
+          </div>
+        </div>
+      </section>
 
       {/* Footer */}
       <Footer/>
